@@ -1,0 +1,82 @@
+create table zip (
+	zipcode integer,
+	city varchar(50),
+	state varchar(50),
+	primary key (zipcode)
+);
+
+
+create table person (
+	userid varchar(50),
+	fname varchar(20),
+	lname varchar(20),
+	emailid varchar(50),
+	dob date,
+	street varchar(50),
+	phone varchar(15),
+	type varchar(10),
+	sex varchar(10),
+	zipcode integer,
+	foreign key (zipcode) references zip(zipcode),
+	primary key (userid)
+);
+
+create table company (
+	cname varchar(100),
+	location varchar(50),
+	type varchar(20),
+	description varchar(1000),
+	approved varchar(5),
+	primary key (cname)
+);
+
+create table job (
+	jobid integer auto_increment,
+	jobtitle varchar(100),
+	cname varchar(100),
+	type varchar(100),
+	deadline date,
+	approved varchar(5),
+	description varchar(1000),
+	foreign key (cname) references company(cname),
+	primary key (jobid)
+);
+
+create table post (
+	jobid integer,
+	userid varchar(50),
+	foreign key (jobid) references job(jobid),
+	foreign key (userid) references person(userid)
+);
+
+create table applied (
+	userid varchar(50),
+	jobid integer,
+	status varchar(20),
+	foreign key (jobid) references job(jobid),
+	foreign key (userid) references person(userid)
+);
+
+create table resume (
+	resumeid integer auto_increment,
+	resum longblob,
+	primary key (resumeid)
+);
+
+create table upload (
+	resumeid integer,
+	userid varchar(50),
+	foreign key (resumeid) references resume(resumeid),
+	foreign key (userid) references person(userid)
+);
+
+create table loginadmin (
+	userid varchar(50),
+	password varchar(50)
+);
+
+create table loginperson (
+	userid varchar(50),
+	password varchar(50),
+	foreign key (userid) references person(userid)
+);

@@ -1,0 +1,233 @@
+.button1{
+    -fx-background-color: #ADA8A8;
+    -fx-text-fill: #615D5D;
+    -fx-font: 11px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button1:hover{
+    -fx-background-color: #E23636;
+    -fx-text-fill: #F7F1F1;
+}
+
+.button2{
+    -fx-background-color: transparent;
+    -fx-text-fill: #F7F1F1;
+    -fx-font: 13px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button2:hover{
+    -fx-background-color: #E23636;
+    -fx-text-fill: #F7F1F1;
+}
+
+.button4{
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font: 15px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button4:hover{
+    -fx-background-color: #E23636;
+}
+
+.button5{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 15px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button5:hover{
+    -fx-background-color: #F62323;
+}
+
+.button6{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 15px "Times New Roman bold";
+}
+
+.button6:hover{
+    -fx-background-color: #F62323;
+}
+
+.button7{
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font: 15px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button7:hover{
+    -fx-background-color: #24AFE1;
+}
+
+
+
+.button8{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 15px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button8:hover{
+    -fx-background-color: #24AFE1;
+}
+
+.button9{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 10px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button9:hover{
+    -fx-background-color: #24AFE1;
+}
+
+.button10 {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 20px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button10:hover{
+    -fx-background-color: #8AE639;
+}
+
+.button11 {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 20px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button11:hover{
+    -fx-background-color: #F72525;
+}
+
+.button12 {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 15px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button12:hover{
+    -fx-background-color: #FFE40F;
+}
+
+.button13{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-font: 15px "Times New Roman bold";
+    -fx-font-weight: bold;
+}
+
+.button13:hover{
+    -fx-background-color: #FFE40F;
+}
+
+
+.label1 {
+    -fx-font: 15px "Times New Roman bold";
+    -fx-text-fill: orangered;
+    -fx-font-weight: bold;
+}
+
+.label2 {
+    -fx-text-fill: white;
+    -fx-font: 40px "Times New Roman bold";
+}
+
+.label3 {
+    -fx-font: 25px "Times New Roman bold";
+    -fx-text-fill: #F7F1F1;
+}
+
+.label4 {
+    -fx-font: 30px "Times New Roman bold";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.label5 {
+    -fx-font: 25px "Times New Roman bold";
+    -fx-text-fill: red;
+}
+
+.label6 {
+    -fx-font: 25px "Times New Roman bold";
+    -fx-text-fill: #4DED25;
+}
+
+.label7 {
+    -fx-font: 25px "Times New Roman bold";
+    -fx-text-fill: #FC7216;
+}
+
+.label8 {
+    -fx-font: 25px "Times New Roman bold";
+    -fx-text-fill: #F7F1F1;
+}
+
+.label9 {
+    -fx-font: 18px "Times New Roman bold";
+    -fx-text-fill: #F7F1F1;
+    -fx-font-weight: bold;
+}
+
+.label10 {
+    -fx-font: 15px "Times New Roman bold";
+    -fx-text-fill: #19A6DA;
+    -fx-font-weight: bold;
+}
+
+.label11 {
+    -fx-font: 25px "Times New Roman bold";
+    -fx-text-fill: #F7F1F1;
+    -fx-font-weight: bold;
+}
+
+.label12 {
+    -fx-font: 15px "Times New Roman bold";
+    -fx-text-fill: #FFE40F;
+    -fx-font-weight: bold;
+}
+
+.radiobutton {
+    -fx-font: 15px "Times New Roman bold";
+    -fx-text-fill: #F7F1F1;
+    -fx-font-weight: bold;
+}
+
+.combobox {
+    -fx-font: 15px "Times New Roman bold";
+    -fx-text-fill: #F7F1F1;
+    -fx-background: white;
+    -fx-background-color: white;
+    -fx-text-fill: red;
+}
+
+.combo-box-popup  > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent,transparent;
+    -fx-background-insets: 0, 1;
+    -fx-background:transparent;
+    -fx-padding: 20px;
+}
+
+.scroll-pane:focused {
+    -fx-background-color: transparent, transparent, transparent;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background:transparent;
+}
